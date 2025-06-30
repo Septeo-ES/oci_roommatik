@@ -9,6 +9,7 @@ use App\Middleware\CampingWhitelistMiddleware;
 use App\Middleware\WebhookAuthMiddleware;
 use App\Controllers\Webhook\WebhookHealthController;
 use App\Controllers\Webhook\WebhookBookingController;
+use App\Controllers\Webhook\WebhookBookingLinkController;
 
 // Rutas para la colección C_Roommatik_OCI_PreCheckin_v.1.0.1 (Endpoints que nosotros exponemos) --- EXPOSICIÓN PÚBLICA ---
 $router->before('GET|POST|PUT|DELETE', '/api/v1/.*', function() {
@@ -52,4 +53,8 @@ $router->put('/api/v1/webhook/booking', function() {
 
 $router->patch('/api/v1/webhook/booking', function() {
     (new WebhookBookingController())->patch();
+});
+
+$router->get('/api/v1/webhook/bookinglink', function() {
+    (new WebhookBookingLinkController())->get();
 });
