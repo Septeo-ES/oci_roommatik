@@ -59,6 +59,7 @@ Todos requieren autenticación por token en cabecera `Authorization` (ver .env: 
 - **PUT /api/v1/webhook/booking**: Igual que POST.
 - **PATCH /api/v1/webhook/booking**: Actualiza reserva en Roommatik. Body: `{ localizador, campingId }`. Busca el reservationCode (id_reserva) y lo usa en la URL `/api/v1/Booking/{reservationCode}`.
 - **DELETE /api/v1/webhook/booking**: Elimina reserva en Roommatik. Body: `{ localizador, campingId }`. Busca id_reserva y reserva, y llama a `/api/v1/Booking/{id_reserva}/{reserva}`.
+- **GET /api/v1/webhook/bookinglink**: Devuelve el enlace Roommatik para una reserva. Recibe `{ localizador, campingId }` (por body o query string), busca el id_reserva y consulta el endpoint externo `/api/v1/BookingLink?reservationCode={id_reserva}`. Si la respuesta es correcta, actualiza el campo URL_roommatik en la base de datos.
 
 ## Seguridad en endpoints internos (webhook)
 
