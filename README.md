@@ -1,23 +1,24 @@
 # Roommatik OCI API Module
 
-Este módulo es una API REST PHP independiente para la integración con Roommatik OCI. Está diseñado para funcionar como un submódulo dentro de un proyecto más grande, sin interferir con la web principal ni su `public/`.
+Este módulo es una API REST PHP independiente para la integración con Roommatik OCI. Está diseñado para funcionar como un submódulo dentro de un proyecto tud-checkin, sin interferir con la web principal ni su `public/`.
 
 ## Estructura recomendada
 
 ```
 proyecto-principal/
   public/           # Web principal
-  api-roommatik/    # Módulo REST de Roommatik (independiente)
-    public/
-    src/
-    vendor/
-    ...
+    api/
+      api-roommatik/    # Módulo REST de Roommatik (independiente)
+        public/
+        src/
+        vendor/
+        ...
 ```
 
 ## Instalación y despliegue
 
 1. **Ubica el módulo**
-   - Copia todo el contenido de la carpeta `api-roommatik` dentro de tu proyecto principal.
+   - Copia todo el contenido de la carpeta `api-roommatik` dentro de tu proyecto principal dentro de api/api-roommatik.
 
 2. **Dependencias**
    - Incluye la carpeta `vendor/` generada por Composer. No necesitas Composer en el servidor.
@@ -28,11 +29,11 @@ proyecto-principal/
 
 4. **Acceso a la API**
    - Accede a la API por la ruta:
-     - `https://tudominio.com/api-roommatik/public/index.php/api/v1/health`
+     - `https://tudominio.com/api/api-roommatik/public/index.php/api/v1/health`
    - El `.htaccess` de `public/` permite URLs limpias si el servidor lo soporta.
 
 5. **Base de datos**
-   - El módulo crea automáticamente las tablas necesarias al primer acceso si no existen (`logs_api`, `reserva_localizador`).
+   - El módulo crea automáticamente las tablas necesarias al primer acceso si no existen (`logs_api`, `reserva_localizador`, ...).
 
 6. **Autenticación**
    - Todas las peticiones protegidas requieren la cabecera:
