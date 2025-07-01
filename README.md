@@ -8,7 +8,7 @@ Este módulo es una API REST PHP independiente para la integración con Roommati
 proyecto-principal/
   public/           # Web principal
     api/
-      api-roommatik/    # Módulo REST de Roommatik (independiente)
+      roommatik/    # Módulo REST de Roommatik (independiente)
         public/
         src/
         vendor/
@@ -18,18 +18,18 @@ proyecto-principal/
 ## Instalación y despliegue
 
 1. **Ubica el módulo**
-   - Copia todo el contenido de la carpeta `api-roommatik` dentro de tu proyecto principal dentro de api/api-roommatik.
+   - Copia todo el contenido de la carpeta `roommatik` dentro de tu proyecto principal dentro de api/roommatik.
 
 2. **Dependencias**
    - Incluye la carpeta `vendor/` generada por Composer. No necesitas Composer en el servidor.
 
 3. **Configuración**
-   - Crea y edita el archivo `.env` en `api-roommatik/` según tu entorno (`.env.development` o `.env.production`).
+   - Crea y edita el archivo `.env` en `roommatik/` según tu entorno (`.env.development` o `.env.production`).
    - Configura la base de datos y las claves API en el `.env`.
 
 4. **Acceso a la API**
    - Accede a la API por la ruta:
-     - `https://tudominio.com/api/api-roommatik/public/index.php/api/v1/health`
+     - `https://tudominio.com/api/roommatik/public/index.php/api/v1/health`
    - El `.htaccess` de `public/` permite URLs limpias si el servidor lo soporta.
 
 5. **Base de datos**
@@ -72,7 +72,7 @@ Si el token no es correcto o falta, la API responderá con 401 Unauthorized.
 > **Nota:** Esta protección permite exponer endpoints internos solo a servicios autorizados de la compañía, no a terceros ni al público general.
 
 ## Actualizaciones
-- Para actualizar el módulo, reemplaza los archivos de `api-roommatik/` excepto tu `.env` y la base de datos.
+- Para actualizar el módulo, reemplaza los archivos de `roommatik/` excepto tu `.env` y la base de datos.
 
 ## Notas
 - No es necesario modificar el `public/` ni el autoload del proyecto principal.
