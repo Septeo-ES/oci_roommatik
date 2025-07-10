@@ -13,10 +13,31 @@ class ApiKeyAuthMiddleware
         $this->apiKeyEnvName = $apiKeyEnvName;
     }
 
+    function getAuthorizationHeader(): ?string {
+        if (isset($_SERVER['HTTP_AUTHORIZATION'])) {
+            return $_SERVER['HTTP_AUTHORIZATION'];
+        }
+
+        if (function_exists('apache_request_headers')) {
+            $headers = apache_request_headers();
+            if (isset($headers['Authorization'])) {
+                return $headers['Authorization'];
+            }
+        }
+
+        return null;
+    }
+
+
     public function __invoke()
     {
         $apiKey = $_ENV[$this->apiKeyEnvName] ?? null;
-        $authHeader = $_SERVER['HTTP_AUTHORIZATION'] ?? null;
+
+        $authHeader = $this->getAuthorizationHeader();
+        if ($authHeader && strpos($authHeader, 'Bearer ') === 0) {
+            $authHeader = substr($authHeader, 7); // Remove 'Bearer ' prefix
+        }
+
         $statusCode = 200;
         $response = null;
         $endpoint = $_SERVER['REQUEST_URI'] ?? '';
