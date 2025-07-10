@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ROOT>
+    <CamposObligatorios>
+        <DatosAcompanantes>1</DatosAcompanantes>
+        <DatosVehiculos>1</DatosVehiculos>
+        <FirmarCheckin>0</FirmarCheckin>
+        <Cliente>
+            <Apellidos>4</Apellidos>
+            <Nombre>4</Nombre>
+            <Sexo>1</Sexo>
+            <Fechanacimiento>1</Fechanacimiento>
+            <LugarNacimiento>3</LugarNacimiento>
+            <Telefono1>2</Telefono1>
+            <Telefono2>2</Telefono2>
+            <Email>4</Email>
+            <Direccion1>1</Direccion1>
+            <Direccion2>2</Direccion2>
+            <CodigoPostal>1</CodigoPostal>
+            <Poblacion>1</Poblacion>
+            <Pais>1</Pais>
+            <Provincia>1</Provincia>
+            <TipoDNI>1</TipoDNI>
+            <NumeroDNI>1</NumeroDNI>
+            <FechaExpedicionDNI>1</FechaExpedicionDNI>
+            <FechaCaducidadDNI>3</FechaCaducidadDNI>
+            <Nacionalidad>1</Nacionalidad>
+            <Contribuyente>2</Contribuyente>
+            <Soporte>1</Soporte>
+        </Cliente>
+        <Acompanante>
+            <Apellidos>1</Apellidos>
+            <Nombre>1</Nombre>
+            <Sexo>1</Sexo>
+            <Fechanacimiento>1</Fechanacimiento>
+            <LugarNacimiento>3</LugarNacimiento>
+            <Email>3</Email>
+            <Direccion1>3</Direccion1>
+            <Direccion2>3</Direccion2>
+            <CodigoPostal>3</CodigoPostal>
+            <Poblacion>3</Poblacion>
+            <Pais>1</Pais>
+            <Provincia>1</Provincia>
+            <TipoDNI>1</TipoDNI>
+            <NumeroDNI>1</NumeroDNI>
+            <FechaExpedicionDNI>1</FechaExpedicionDNI>
+            <LugarExpedicionDNI>3</LugarExpedicionDNI>
+            <FechaCaducidadDNI>3</FechaCaducidadDNI>
+            <Nacionalidad>1</Nacionalidad>
+            <Soporte>1</Soporte>
+            <Parentesco>1</Parentesco>
+        </Acompanante>
+    </CamposObligatorios>
+    <MinimoDias>0</MinimoDias>
+    <DiasPagoObligado>0</DiasPagoObligado>
+    <Paises>
+        <PaisReferenciaProvincias>9</PaisReferenciaProvincias>
+        <Pais>
+            <CodigoUnicamp>1</CodigoUnicamp>
+            <CodigoISO>DE</CodigoISO>
+            <Descripcion>Alemania</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>2</CodigoUnicamp>
+            <CodigoISO>AT</CodigoISO>
+            <Descripcion>Austria</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>3</CodigoUnicamp>
+            <CodigoISO>BE</CodigoISO>
+            <Descripcion>Bélgica</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>4</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Bosnia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>5</CodigoUnicamp>
+            <CodigoISO>BU</CodigoISO>
+            <Descripcion>Bulgaria</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>6</CodigoUnicamp>
+            <CodigoISO>CA</CodigoISO>
+            <Descripcion>Canada</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>7</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Croacia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>8</CodigoUnicamp>
+            <CodigoISO>DK</CodigoISO>
+            <Descripcion>Dinamarca</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>9</CodigoUnicamp>
+            <CodigoISO>ES</CodigoISO>
+            <Descripcion>España</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>10</CodigoUnicamp>
+            <CodigoISO>US</CodigoISO>
+            <Descripcion>Estados Unidos</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>11</CodigoUnicamp>
+            <CodigoISO>FI</CodigoISO>
+            <Descripcion>Finlandia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>12</CodigoUnicamp>
+            <CodigoISO>FR</CodigoISO>
+            <Descripcion>Francia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>13</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Reino Unido</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>14</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Grecia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>15</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Holanda</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>16</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Hungría</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>17</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Italia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>18</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Irlanda</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>19</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Luxemburgo</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>20</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Noruega</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>21</CodigoUnicamp>
+            <CodigoISO>PT</CodigoISO>
+            <Descripcion>Portugal</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>22</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Polonia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>23</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>República Checa</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>24</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Resto de Europa</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>25</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Rumania</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>26</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Suecia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>27</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Suiza</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>28</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Marruecos</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>29</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Eslovaquia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>30</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Islandia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>31</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Liechtenstein</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>32</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Turquía</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>33</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Resto de África</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>34</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Argentina</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>35</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Brasil</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>36</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>México</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>37</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Venezuela</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>38</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Resto de América</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>39</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Japón</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>40</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Resto de Asia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>41</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Australia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>42</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Nueva Zelanda</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>43</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Otros países</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>44</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Perú</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>45</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Rusia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>46</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Israel</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>47</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Colombia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>48</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Bolivia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>49</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Uruguay</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>50</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>China</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>51</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>India</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>52</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Lituania</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>53</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Letonia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>54</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Argelia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>55</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Túnez</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>56</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Egipto</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>57</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Paraguay</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>58</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Honduras</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>59</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>El Salvador</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>60</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Cuba</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>61</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Puerto Rico</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>62</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Filipinas</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>63</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Afganistán</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>64</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Albania</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>65</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Andorra</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>66</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Armenia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>67</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Bielorrusia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>68</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Camerún</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>69</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Chipre</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>70</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Chile</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>71</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Corea</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>72</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Costa Rica</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>73</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Ecuador</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>74</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Eslovenia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>75</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Estonia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>76</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Guatemala</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>77</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Guayana Francesa</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>78</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Guyana</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>79</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Guinea Ecuatorial</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>80</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Haití</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>81</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Jamaica</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>82</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Jordania</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>83</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Macedonia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>84</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Malta</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>85</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Nicaragua</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>86</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Pakistán</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>87</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Panamá</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>88</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Siria</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>89</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Serbia y Montenegro</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>90</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Sudáfrica</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>91</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Tailandia</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>92</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Taiwán</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>93</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Ucrania</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>94</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Vietnam</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>95</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>Singapur</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>96</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>96</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>97</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>97</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>98</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>98</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>99</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>99</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>100</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>100</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>101</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>101</Descripcion>
+        </Pais>
+        <Pais>
+            <CodigoUnicamp>102</CodigoUnicamp>
+            <CodigoISO />
+            <Descripcion>102</Descripcion>
+        </Pais>
+    </Paises>
+    <Provincias>
+        <Provincia>
+            <CodigoUnicamp>1</CodigoUnicamp>
+            <Descripcion>Alicante</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>2</CodigoUnicamp>
+            <Descripcion>Almería</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>3</CodigoUnicamp>
+            <Descripcion>Barcelona</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>4</CodigoUnicamp>
+            <Descripcion>Girona</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>5</CodigoUnicamp>
+            <Descripcion>Huesca</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>6</CodigoUnicamp>
+            <Descripcion>Lleida</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>7</CodigoUnicamp>
+            <Descripcion>Madrid</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>8</CodigoUnicamp>
+            <Descripcion>Cantabria</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>9</CodigoUnicamp>
+            <Descripcion>Sevilla</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>10</CodigoUnicamp>
+            <Descripcion>Tarragona</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>11</CodigoUnicamp>
+            <Descripcion>Valencia</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>12</CodigoUnicamp>
+            <Descripcion>Alava</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>13</CodigoUnicamp>
+            <Descripcion>Albacete</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>14</CodigoUnicamp>
+            <Descripcion>Asturias</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>15</CodigoUnicamp>
+            <Descripcion>Avila</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>16</CodigoUnicamp>
+            <Descripcion>Badajoz</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>17</CodigoUnicamp>
+            <Descripcion>Baleares</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>18</CodigoUnicamp>
+            <Descripcion>Vizcaya</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>19</CodigoUnicamp>
+            <Descripcion>Burgos</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>20</CodigoUnicamp>
+            <Descripcion>Cáceres</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>21</CodigoUnicamp>
+            <Descripcion>Cádiz</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>22</CodigoUnicamp>
+            <Descripcion>Castellón</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>23</CodigoUnicamp>
+            <Descripcion>Ceuta</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>24</CodigoUnicamp>
+            <Descripcion>Ciudad Real</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>25</CodigoUnicamp>
+            <Descripcion>Cuenca</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>26</CodigoUnicamp>
+            <Descripcion>Córdoba</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>27</CodigoUnicamp>
+            <Descripcion>Granada</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>28</CodigoUnicamp>
+            <Descripcion>Guadalajara</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>29</CodigoUnicamp>
+            <Descripcion>Guipúzcoa</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>30</CodigoUnicamp>
+            <Descripcion>Huelva</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>31</CodigoUnicamp>
+            <Descripcion>Jaén</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>32</CodigoUnicamp>
+            <Descripcion>La Coruña</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>33</CodigoUnicamp>
+            <Descripcion>La Rioja</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>34</CodigoUnicamp>
+            <Descripcion>Las Palmas</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>35</CodigoUnicamp>
+            <Descripcion>León</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>36</CodigoUnicamp>
+            <Descripcion>Lugo</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>37</CodigoUnicamp>
+            <Descripcion>Málaga</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>38</CodigoUnicamp>
+            <Descripcion>Melilla</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>39</CodigoUnicamp>
+            <Descripcion>Murcia</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>40</CodigoUnicamp>
+            <Descripcion>Navarra</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>41</CodigoUnicamp>
+            <Descripcion>Orense</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>42</CodigoUnicamp>
+            <Descripcion>Zaragoza</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>43</CodigoUnicamp>
+            <Descripcion>Palencia</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>44</CodigoUnicamp>
+            <Descripcion>Pontevedra</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>45</CodigoUnicamp>
+            <Descripcion>Salamanca</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>46</CodigoUnicamp>
+            <Descripcion>Sta. Cruz Tenerife</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>47</CodigoUnicamp>
+            <Descripcion>Segovia</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>48</CodigoUnicamp>
+            <Descripcion>Zamora</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>49</CodigoUnicamp>
+            <Descripcion>Soria</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>50</CodigoUnicamp>
+            <Descripcion>Teruel</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>51</CodigoUnicamp>
+            <Descripcion>Toledo</Descripcion>
+        </Provincia>
+        <Provincia>
+            <CodigoUnicamp>52</CodigoUnicamp>
+            <Descripcion>Valladolid</Descripcion>
+        </Provincia>
+    </Provincias>
+    <MarcasVehiculos>
+        <Marca>
+            <CodigoUnicamp>1</CodigoUnicamp>
+            <Descripcion>Aleko</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>2</CodigoUnicamp>
+            <Descripcion>Alfa Romeo</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>3</CodigoUnicamp>
+            <Descripcion>Aprilia</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>4</CodigoUnicamp>
+            <Descripcion>Arca</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>5</CodigoUnicamp>
+            <Descripcion>Audi</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>6</CodigoUnicamp>
+            <Descripcion>Avia</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>7</CodigoUnicamp>
+            <Descripcion>Bedford</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>8</CodigoUnicamp>
+            <Descripcion>Benimar</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>9</CodigoUnicamp>
+            <Descripcion>Bertone</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>10</CodigoUnicamp>
+            <Descripcion>BMW</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>11</CodigoUnicamp>
+            <Descripcion>Borgward</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>12</CodigoUnicamp>
+            <Descripcion>Chevrolet</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>13</CodigoUnicamp>
+            <Descripcion>Chrysler</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>14</CodigoUnicamp>
+            <Descripcion>Citroën</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>15</CodigoUnicamp>
+            <Descripcion>Clou</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>16</CodigoUnicamp>
+            <Descripcion>Dacia</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>17</CodigoUnicamp>
+            <Descripcion>Daewoo</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>18</CodigoUnicamp>
+            <Descripcion>DAF</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>19</CodigoUnicamp>
+            <Descripcion>Daihatsu</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>20</CodigoUnicamp>
+            <Descripcion>Datsun</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>21</CodigoUnicamp>
+            <Descripcion>Derbi</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>22</CodigoUnicamp>
+            <Descripcion>Dodge</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>23</CodigoUnicamp>
+            <Descripcion>Elnagh</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>24</CodigoUnicamp>
+            <Descripcion>Fiat</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>25</CodigoUnicamp>
+            <Descripcion>Ford</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>26</CodigoUnicamp>
+            <Descripcion>Galloper</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>27</CodigoUnicamp>
+            <Descripcion>Guzzi</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>28</CodigoUnicamp>
+            <Descripcion>Hanomag</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>29</CodigoUnicamp>
+            <Descripcion>Harley</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>30</CodigoUnicamp>
+            <Descripcion>Honda</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>31</CodigoUnicamp>
+            <Descripcion>Hymer</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>32</CodigoUnicamp>
+            <Descripcion>Hyundai</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>33</CodigoUnicamp>
+            <Descripcion>Isuzu</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>34</CodigoUnicamp>
+            <Descripcion>Iveco</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>35</CodigoUnicamp>
+            <Descripcion>Jaguar</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>36</CodigoUnicamp>
+            <Descripcion>Jeep</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>37</CodigoUnicamp>
+            <Descripcion>Kawasaki</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>38</CodigoUnicamp>
+            <Descripcion>Kia</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>39</CodigoUnicamp>
+            <Descripcion>Korando</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>40</CodigoUnicamp>
+            <Descripcion>Lada</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>41</CodigoUnicamp>
+            <Descripcion>Laika</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>42</CodigoUnicamp>
+            <Descripcion>Lancia</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>43</CodigoUnicamp>
+            <Descripcion>Lexus</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>44</CodigoUnicamp>
+            <Descripcion>Mazda</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>45</CodigoUnicamp>
+            <Descripcion>Mercedes Benz</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>46</CodigoUnicamp>
+            <Descripcion>MG</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>47</CodigoUnicamp>
+            <Descripcion>Mini</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>48</CodigoUnicamp>
+            <Descripcion>Mitsubishi</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>49</CodigoUnicamp>
+            <Descripcion>Musso</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>50</CodigoUnicamp>
+            <Descripcion>Nissan</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>51</CodigoUnicamp>
+            <Descripcion>Opel</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>52</CodigoUnicamp>
+            <Descripcion>Pegaso</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>53</CodigoUnicamp>
+            <Descripcion>Peugeot</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>54</CodigoUnicamp>
+            <Descripcion>Piaggio</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>55</CodigoUnicamp>
+            <Descripcion>Pilote</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>56</CodigoUnicamp>
+            <Descripcion>Pontiac</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>57</CodigoUnicamp>
+            <Descripcion>Porsche</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>58</CodigoUnicamp>
+            <Descripcion>Renault</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>59</CodigoUnicamp>
+            <Descripcion>Rover</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>60</CodigoUnicamp>
+            <Descripcion>Saab</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>61</CodigoUnicamp>
+            <Descripcion>Seat</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>62</CodigoUnicamp>
+            <Descripcion>Skoda</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>63</CodigoUnicamp>
+            <Descripcion>Smart</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>64</CodigoUnicamp>
+            <Descripcion>Subaru</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>65</CodigoUnicamp>
+            <Descripcion>Suzuki</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>66</CodigoUnicamp>
+            <Descripcion>Symca</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>67</CodigoUnicamp>
+            <Descripcion>Talbot</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>68</CodigoUnicamp>
+            <Descripcion>Tata</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>69</CodigoUnicamp>
+            <Descripcion>Toyota</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>70</CodigoUnicamp>
+            <Descripcion>Triple E</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>71</CodigoUnicamp>
+            <Descripcion>Triumph</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>72</CodigoUnicamp>
+            <Descripcion>Vauxhall</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>73</CodigoUnicamp>
+            <Descripcion>Vespa</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>74</CodigoUnicamp>
+            <Descripcion>Volkswagen</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>75</CodigoUnicamp>
+            <Descripcion>Volvo</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>76</CodigoUnicamp>
+            <Descripcion>Wartburg</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>77</CodigoUnicamp>
+            <Descripcion>Winnebag</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>78</CodigoUnicamp>
+            <Descripcion>Yamaha</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>79</CodigoUnicamp>
+            <Descripcion>Yugo</Descripcion>
+        </Marca>
+        <Marca>
+            <CodigoUnicamp>80</CodigoUnicamp>
+            <Descripcion>hyosung</Descripcion>
+        </Marca>
+    </MarcasVehiculos>
+    <ColoresVehiculos>
+        <Color>
+            <CodigoUnicamp>1</CodigoUnicamp>
+            <Descripcion>Amarilo</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>2</CodigoUnicamp>
+            <Descripcion>Azul</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>3</CodigoUnicamp>
+            <Descripcion>Beige</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>4</CodigoUnicamp>
+            <Descripcion>Blanco</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>5</CodigoUnicamp>
+            <Descripcion>Burdeos</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>6</CodigoUnicamp>
+            <Descripcion>Celeste</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>7</CodigoUnicamp>
+            <Descripcion>Dorado</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>8</CodigoUnicamp>
+            <Descripcion>Gris</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>9</CodigoUnicamp>
+            <Descripcion>Lila</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>10</CodigoUnicamp>
+            <Descripcion>Marrón</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>11</CodigoUnicamp>
+            <Descripcion>Naranja</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>12</CodigoUnicamp>
+            <Descripcion>Negro</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>13</CodigoUnicamp>
+            <Descripcion>Plata</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>14</CodigoUnicamp>
+            <Descripcion>Rojo</Descripcion>
+        </Color>
+        <Color>
+            <CodigoUnicamp>15</CodigoUnicamp>
+            <Descripcion>Verde</Descripcion>
+        </Color>
+    </ColoresVehiculos>
+    <TiposVehiculos>
+        <Tipo>
+            <CodigoUnicamp>1</CodigoUnicamp>
+            <Descripcion>Coche</Descripcion>
+        </Tipo>
+        <Tipo>
+            <CodigoUnicamp>2</CodigoUnicamp>
+            <Descripcion>Autocaravana</Descripcion>
+        </Tipo>
+        <Tipo>
+            <CodigoUnicamp>3</CodigoUnicamp>
+            <Descripcion>Barco</Descripcion>
+        </Tipo>
+        <Tipo>
+            <CodigoUnicamp>4</CodigoUnicamp>
+            <Descripcion>Bicicleta</Descripcion>
+        </Tipo>
+        <Tipo>
+            <CodigoUnicamp>5</CodigoUnicamp>
+            <Descripcion>Camión</Descripcion>
+        </Tipo>
+        <Tipo>
+            <CodigoUnicamp>6</CodigoUnicamp>
+            <Descripcion>Autobús</Descripcion>
+        </Tipo>
+        <Tipo>
+            <CodigoUnicamp>7</CodigoUnicamp>
+            <Descripcion>Furgón</Descripcion>
+        </Tipo>
+        <Tipo>
+            <CodigoUnicamp>8</CodigoUnicamp>
+            <Descripcion>Motocicleta</Descripcion>
+        </Tipo>
+    </TiposVehiculos>
+    <ModosPago>
+        <Modo>
+            <CodigoUnicamp>8</CodigoUnicamp>
+            <Descripcion>HiPay</Descripcion>
+            <TarjetaBancaria>1</TarjetaBancaria>
+            <Traducciones />
+            <Comentarios />
+            <TPV>3</TPV>
+        </Modo>
+        <Modo>
+            <CodigoUnicamp>4</CodigoUnicamp>
+            <Descripcion>Metálico</Descripcion>
+            <TarjetaBancaria>0</TarjetaBancaria>
+            <Traducciones />
+            <Comentarios />
+            <TPV>0</TPV>
+        </Modo>
+        <Modo>
+            <CodigoUnicamp>20</CodigoUnicamp>
+            <Descripcion>TPV Redsys</Descripcion>
+            <TarjetaBancaria>1</TarjetaBancaria>
+            <Traducciones />
+            <Comentarios />
+            <TPV>4</TPV>
+        </Modo>
+    </ModosPago>
+    <Pago>
+        <CodigoPago>1</CodigoPago>
+    </Pago>
+    <EmailCamping>carlosorti@thelis.es</EmailCamping>
+    <DatosImpresion>
+        <Nombre>Camping UNICAMPING</Nombre>
+        <Direccion>c/Viladomat 135, 2ª planta</Direccion>
+        <Provincia>Barcelona</Provincia>
+        <CodPos>08015</CodPos>
+        <Pais />
+        <Telefono>932924800</Telefono>
+        <Fax />
+        <Mail>unixdata@thelis.es</Mail>
+        <Web>www.unixdata.es</Web>
+    </DatosImpresion>
+    <VentaCruzada>
+        <Activa>1</Activa>
+        <Prestaciones>
+            <Prestacion>
+                <Id>2</Id>
+                <Nombre>
+                    <es>Ropa de Cama</es>
+                </Nombre>
+                <Descripcion>
+                    <es>3 juegos de cama individual + 1 juego cama de matrimonio</es>
+                    <pt />
+                </Descripcion>
+                <Precio>
+                    <Total>3</Total>
+                    <Bruto>2.73</Bruto>
+                    <IVA>0.27</IVA>
+                    <Porcentaje>10</Porcentaje>
+                    <PorTramos>0</PorTramos>
+                    <PorNoches>0</PorNoches>
+                </Precio>
+                <Imagen>ropa cama.jpg</Imagen>
+                <Tipo>4</Tipo>
+                <Condicion>1</Condicion>
+                <Tabn1>0</Tabn1>
+                <Tabn2>0</Tabn2>
+                <TarifasEstancia>
+                    <IdTarifa>39</IdTarifa>
+                    <IdTarifa>5</IdTarifa>
+                    <IdTarifa>36</IdTarifa>
+                    <IdTarifa>58</IdTarifa>
+                    <IdTarifa>38</IdTarifa>
+                    <IdTarifa>100</IdTarifa>
+                    <IdTarifa>4</IdTarifa>
+                    <IdTarifa>31</IdTarifa>
+                    <IdTarifa>7</IdTarifa>
+                    <IdTarifa>49</IdTarifa>
+                    <IdTarifa>28</IdTarifa>
+                    <IdTarifa>3</IdTarifa>
+                    <IdTarifa>64</IdTarifa>
+                    <IdTarifa>12</IdTarifa>
+                    <IdTarifa>11</IdTarifa>
+                    <IdTarifa>66</IdTarifa>
+                    <IdTarifa>67</IdTarifa>
+                    <IdTarifa>23</IdTarifa>
+                    <IdTarifa>101</IdTarifa>
+                    <IdTarifa>51</IdTarifa>
+                    <IdTarifa>61</IdTarifa>
+                    <IdTarifa>46</IdTarifa>
+                    <IdTarifa>54</IdTarifa>
+                    <IdTarifa>63</IdTarifa>
+                </TarifasEstancia>
+                <Periodos>
+                    <Periodo>
+                        <Id>1</Id>
+                        <Inicio>20160101</Inicio>
+                        <Fin>20241231</Fin>
+                    </Periodo>
+                </Periodos>
+            </Prestacion>
+            <Prestacion>
+                <Id>11</Id>
+                <Nombre>
+                    <es>Alquiler Bicicleta</es>
+                </Nombre>
+                <Descripcion>
+                    <es>Alquiler Bicicleta 1 semana por 7&#8364;</es>
+                    <pt />
+                </Descripcion>
+                <Precio>
+                    <Total>11</Total>
+                    <Bruto>9.09</Bruto>
+                    <IVA>1.91</IVA>
+                    <Porcentaje>21</Porcentaje>
+                    <PorTramos>0</PorTramos>
+                    <PorNoches>0</PorNoches>
+                </Precio>
+                <Imagen>alquilerbici.jpg</Imagen>
+                <Tipo>4</Tipo>
+                <Condicion>0</Condicion>
+                <Tabn1>0</Tabn1>
+                <Tabn2>0</Tabn2>
+                <TarifasEstancia>
+                    <IdTarifa>39</IdTarifa>
+                    <IdTarifa>5</IdTarifa>
+                    <IdTarifa>36</IdTarifa>
+                    <IdTarifa>58</IdTarifa>
+                    <IdTarifa>38</IdTarifa>
+                    <IdTarifa>100</IdTarifa>
+                    <IdTarifa>4</IdTarifa>
+                    <IdTarifa>31</IdTarifa>
+                    <IdTarifa>7</IdTarifa>
+                    <IdTarifa>49</IdTarifa>
+                    <IdTarifa>28</IdTarifa>
+                    <IdTarifa>3</IdTarifa>
+                    <IdTarifa>64</IdTarifa>
+                    <IdTarifa>12</IdTarifa>
+                    <IdTarifa>11</IdTarifa>
+                    <IdTarifa>66</IdTarifa>
+                    <IdTarifa>67</IdTarifa>
+                    <IdTarifa>23</IdTarifa>
+                    <IdTarifa>101</IdTarifa>
+                    <IdTarifa>51</IdTarifa>
+                    <IdTarifa>61</IdTarifa>
+                    <IdTarifa>46</IdTarifa>
+                    <IdTarifa>54</IdTarifa>
+                    <IdTarifa>63</IdTarifa>
+                </TarifasEstancia>
+                <Periodos>
+                    <Periodo>
+                        <Id>1</Id>
+                        <Inicio>20160101</Inicio>
+                        <Fin>20241231</Fin>
+                    </Periodo>
+                </Periodos>
+            </Prestacion>
+            <Prestacion>
+                <Id>18</Id>
+                <Nombre>
+                    <ca>Pack Excursiones CA</ca>
+                    <da>Pack Excursiones DK</da>
+                    <de>Pack Excursiones DE</de>
+                    <en>Pack Excursiones GB</en>
+                    <es>Pack Excursiones ES</es>
+                    <fr>Pack Excursiones FR</fr>
+                    <it>Pack Excursiones IT</it>
+                    <nl>Pack Excursiones NL</nl>
+                    <pt>Pack Excursiones PT</pt>
+                </Nombre>
+                <Descripcion>
+                    <ca>1 Ruta Nordic Walking&#13;
+                        1 Descenso &#13;
+                        1 Paseo a Caballo</ca>
+                    <da>1 Ruta Nordic Walking&#13;
+                        1 Descenso &#13;
+                        1 Paseo a Caballo</da>
+                    <de>1 Ruta Nordic Walking&#13;
+                        1 Descenso &#13;
+                        1 Paseo a Caballo</de>
+                    <en>1 Ruta Nordic Walking&#13;
+                        1 Descenso &#13;
+                        1 Paseo a Caballo</en>
+                    <es>1 Ruta Nordic Walking&#13;
+                        1 Descenso &#13;
+                        1 Paseo a Caballo</es>
+                    <fr>1 Ruta Nordic Walking&#13;
+                        1 Descenso &#13;
+                        1 Paseo a Caballo</fr>
+                    <it>Ruta Nordic Walking&#13;
+                        Ruta GR7&#13;
+                        Volta a les Moles</it>
+                    <nl>1 Ruta Nordic Walking&#13;
+                        1 Descenso &#13;
+                        1 Paseo a Caballo</nl>
+                    <pt>1 Ruta Nordic Walking&#13;
+                        1 Descenso &#13;
+                        1 Paseo a Caballo</pt>
+                </Descripcion>
+                <Precio>
+                    <Total>100</Total>
+                    <Bruto>90.91</Bruto>
+                    <IVA>9.09</IVA>
+                    <Porcentaje>10</Porcentaje>
+                    <PorTramos>0</PorTramos>
+                    <PorNoches>0</PorNoches>
+                </Precio>
+                <Imagen>excusion.jpg</Imagen>
+                <Tipo>1</Tipo>
+                <Condicion>0</Condicion>
+                <Tabn1>0</Tabn1>
+                <Tabn2>0</Tabn2>
+                <TarifasEstancia>
+                    <IdTarifa>39</IdTarifa>
+                    <IdTarifa>5</IdTarifa>
+                    <IdTarifa>36</IdTarifa>
+                    <IdTarifa>58</IdTarifa>
+                    <IdTarifa>38</IdTarifa>
+                    <IdTarifa>100</IdTarifa>
+                    <IdTarifa>4</IdTarifa>
+                    <IdTarifa>31</IdTarifa>
+                    <IdTarifa>7</IdTarifa>
+                    <IdTarifa>49</IdTarifa>
+                    <IdTarifa>28</IdTarifa>
+                    <IdTarifa>3</IdTarifa>
+                    <IdTarifa>64</IdTarifa>
+                    <IdTarifa>12</IdTarifa>
+                    <IdTarifa>11</IdTarifa>
+                    <IdTarifa>66</IdTarifa>
+                    <IdTarifa>67</IdTarifa>
+                    <IdTarifa>23</IdTarifa>
+                    <IdTarifa>101</IdTarifa>
+                    <IdTarifa>51</IdTarifa>
+                    <IdTarifa>61</IdTarifa>
+                    <IdTarifa>46</IdTarifa>
+                    <IdTarifa>54</IdTarifa>
+                    <IdTarifa>63</IdTarifa>
+                </TarifasEstancia>
+                <Periodos>
+                    <Periodo>
+                        <Id>1</Id>
+                        <Inicio>20200701</Inicio>
+                        <Fin>20241231</Fin>
+                    </Periodo>
+                </Periodos>
+            </Prestacion>
+            <Prestacion>
+                <Id>21</Id>
+                <Nombre>
+                    <ca>Seguro Anulación - Max. 1500&#8364; CA</ca>
+                    <da>Seguro Anulación - Max. 1500&#8364; DK</da>
+                    <de>Seguro Anulación - Max. 1500&#8364; DE</de>
+                    <en>Seguro Anulación - Max. 1500&#8364; EN</en>
+                    <es>Seguro Anulación - Max. 1500&#8364; ES</es>
+                    <fr>Seguro Anulación - Max. 1500&#8364; FR</fr>
+                    <it>Seguro Anulación - Max. 1500&#8364; IT</it>
+                    <nl>Seguro Anulación - Max. 1500&#8364; DL</nl>
+                    <pt>Seguro Anulación - Max. 1500&#8364; PT</pt>
+                </Nombre>
+                <Descripcion>
+                    <ca>En caso de anulación de devolveremos el importe de su reserva hasta un
+                        máximo de 1500&#8364;. Más información en Condiciones de Venta</ca>
+                    <da>En caso de anulación de devolveremos el importe de su reserva hasta un
+                        máximo de 1500&#8364;. Más información en Condiciones de Venta</da>
+                    <de>En caso de anulación de devolveremos el importe de su reserva hasta un
+                        máximo de 1500&#8364;. Más información en Condiciones de Venta</de>
+                    <en>En caso de anulación de devolveremos el importe de su reserva hasta un
+                        máximo de 1500&#8364;. Más información en Condiciones de Venta</en>
+                    <es>En caso de anulación, de devolveremos el importe de su reserva &lt;a
+                        href="www.unixdata.es" target=_blank&gt;Más información&lt;/a&gt;</es>
+                    <fr>En caso de anulación de devolveremos el importe de su reserva hasta un
+                        máximo de 1500&#8364;. Más información en Condiciones de Venta</fr>
+                    <it>En caso de anulación de devolveremos el importe de su reserva hasta un
+                        máximo de 1500&#8364;. Más información en Condiciones de Venta</it>
+                    <nl>En caso de anulación de devolveremos el importe de su reserva hasta un
+                        máximo de 1500&#8364;. Más información en Condiciones de Venta</nl>
+                    <pt>En caso de anulación de devolveremos el importe de su reserva hasta un
+                        máximo de 1500&#8364;. Más información en Condiciones de Venta</pt>
+                </Descripcion>
+                <Precio>
+                    <Total>15</Total>
+                    <Bruto>13.64</Bruto>
+                    <IVA>1.36</IVA>
+                    <Porcentaje>10</Porcentaje>
+                    <PorTramos>0</PorTramos>
+                    <PorNoches>0</PorNoches>
+                </Precio>
+                <Imagen />
+                <Tipo>0</Tipo>
+                <Condicion>2</Condicion>
+                <Tabn1>0</Tabn1>
+                <Tabn2>1000</Tabn2>
+                <TarifasEstancia>
+                    <IdTarifa>39</IdTarifa>
+                    <IdTarifa>5</IdTarifa>
+                    <IdTarifa>36</IdTarifa>
+                    <IdTarifa>58</IdTarifa>
+                    <IdTarifa>38</IdTarifa>
+                    <IdTarifa>100</IdTarifa>
+                    <IdTarifa>69</IdTarifa>
+                    <IdTarifa>4</IdTarifa>
+                    <IdTarifa>31</IdTarifa>
+                    <IdTarifa>7</IdTarifa>
+                    <IdTarifa>49</IdTarifa>
+                    <IdTarifa>28</IdTarifa>
+                    <IdTarifa>73</IdTarifa>
+                    <IdTarifa>55</IdTarifa>
+                    <IdTarifa>3</IdTarifa>
+                    <IdTarifa>72</IdTarifa>
+                    <IdTarifa>64</IdTarifa>
+                    <IdTarifa>12</IdTarifa>
+                    <IdTarifa>11</IdTarifa>
+                    <IdTarifa>66</IdTarifa>
+                    <IdTarifa>67</IdTarifa>
+                    <IdTarifa>20</IdTarifa>
+                    <IdTarifa>70</IdTarifa>
+                    <IdTarifa>23</IdTarifa>
+                    <IdTarifa>101</IdTarifa>
+                    <IdTarifa>51</IdTarifa>
+                    <IdTarifa>61</IdTarifa>
+                    <IdTarifa>46</IdTarifa>
+                    <IdTarifa>54</IdTarifa>
+                    <IdTarifa>63</IdTarifa>
+                </TarifasEstancia>
+                <Periodos>
+                    <Periodo>
+                        <Id>1</Id>
+                        <Inicio>20230101</Inicio>
+                        <Fin>20241231</Fin>
+                    </Periodo>
+                </Periodos>
+            </Prestacion>
+            <Prestacion>
+                <Id>23</Id>
+                <Nombre>
+                    <ca>Seguro Anulación - Max. 3500&#8364;</ca>
+                    <da>Seguro Anulación - Max. 3500&#8364;</da>
+                    <de>Seguro Anulación - Max. 3500&#8364;</de>
+                    <en>Seguro Anulación - Max. 3500&#8364;</en>
+                    <es>Seguro Anulación - Max. 3500&#8364;</es>
+                    <fr>Seguro Anulación - Max. 3500&#8364;</fr>
+                    <it>Seguro Anulación - Max. 3500&#8364;</it>
+                    <nl>Seguro Anulación - Max. 3500&#8364;</nl>
+                    <pt>Seguro Anulación - Max. 3500&#8364;</pt>
+                </Nombre>
+                <Descripcion>
+                    <ca>&lt;a href='http://www.unixdata.es' target='blank'&gt;Condiciones&lt;/a&gt;</ca>
+                    <da>&lt;a href='http://www.unixdata.es' target='blank'&gt;Condiciones&lt;/a&gt;</da>
+                    <de>&lt;a href='http://www.unixdata.es' target='blank'&gt;Condiciones&lt;/a&gt;</de>
+                    <en>&lt;a href='http://www.unixdata.es' target='blank'&gt;Condiciones&lt;/a&gt;</en>
+                    <es>&lt;a href='http://www.unixdata.es' target='blank'&gt;Condiciones&lt;/a&gt;</es>
+                    <fr>&lt;a href='http://www.unixdata.es' target='blank'&gt;Condiciones&lt;/a&gt;</fr>
+                    <it>&lt;a href='http://www.unixdata.es' target='blank'&gt;Condiciones&lt;/a&gt;</it>
+                    <nl>&lt;a href='http://www.unixdata.es' target='blank'&gt;Condiciones&lt;/a&gt;</nl>
+                    <pt>&lt;a href='http://www.unixdata.es' target='blank'&gt;Condiciones&lt;/a&gt;</pt>
+                </Descripcion>
+                <Precio>
+                    <Total>80</Total>
+                    <Bruto>72.73</Bruto>
+                    <IVA>7.27</IVA>
+                    <Porcentaje>10</Porcentaje>
+                    <PorTramos>0</PorTramos>
+                    <PorNoches>0</PorNoches>
+                </Precio>
+                <Imagen />
+                <Tipo>0</Tipo>
+                <Condicion>2</Condicion>
+                <Tabn1>1001</Tabn1>
+                <Tabn2>60000</Tabn2>
+                <TarifasEstancia>
+                    <IdTarifa>39</IdTarifa>
+                    <IdTarifa>5</IdTarifa>
+                    <IdTarifa>36</IdTarifa>
+                    <IdTarifa>58</IdTarifa>
+                    <IdTarifa>38</IdTarifa>
+                    <IdTarifa>100</IdTarifa>
+                    <IdTarifa>69</IdTarifa>
+                    <IdTarifa>4</IdTarifa>
+                    <IdTarifa>31</IdTarifa>
+                    <IdTarifa>7</IdTarifa>
+                    <IdTarifa>49</IdTarifa>
+                    <IdTarifa>28</IdTarifa>
+                    <IdTarifa>73</IdTarifa>
+                    <IdTarifa>55</IdTarifa>
+                    <IdTarifa>3</IdTarifa>
+                    <IdTarifa>72</IdTarifa>
+                    <IdTarifa>64</IdTarifa>
+                    <IdTarifa>12</IdTarifa>
+                    <IdTarifa>11</IdTarifa>
+                    <IdTarifa>66</IdTarifa>
+                    <IdTarifa>67</IdTarifa>
+                    <IdTarifa>20</IdTarifa>
+                    <IdTarifa>70</IdTarifa>
+                    <IdTarifa>23</IdTarifa>
+                    <IdTarifa>101</IdTarifa>
+                    <IdTarifa>51</IdTarifa>
+                    <IdTarifa>61</IdTarifa>
+                    <IdTarifa>46</IdTarifa>
+                    <IdTarifa>54</IdTarifa>
+                    <IdTarifa>63</IdTarifa>
+                </TarifasEstancia>
+                <Periodos>
+                    <Periodo>
+                        <Id>1</Id>
+                        <Inicio>20230101</Inicio>
+                        <Fin>20241231</Fin>
+                    </Periodo>
+                </Periodos>
+            </Prestacion>
+            <Prestacion>
+                <Id>28</Id>
+                <Nombre />
+                <Descripcion>
+                    <es />
+                    <pt />
+                </Descripcion>
+                <Precio>
+                    <Total>20</Total>
+                    <Bruto>18.18</Bruto>
+                    <IVA>1.82</IVA>
+                    <Porcentaje>10</Porcentaje>
+                    <PorTramos>0</PorTramos>
+                    <PorNoches>1</PorNoches>
+                </Precio>
+                <Imagen />
+                <Tipo>3</Tipo>
+                <Condicion>0</Condicion>
+                <Tabn1>0</Tabn1>
+                <Tabn2>0</Tabn2>
+                <TarifasEstancia>
+                    <IdTarifa>39</IdTarifa>
+                    <IdTarifa>5</IdTarifa>
+                    <IdTarifa>36</IdTarifa>
+                    <IdTarifa>58</IdTarifa>
+                    <IdTarifa>38</IdTarifa>
+                    <IdTarifa>100</IdTarifa>
+                    <IdTarifa>69</IdTarifa>
+                    <IdTarifa>23</IdTarifa>
+                    <IdTarifa>4</IdTarifa>
+                    <IdTarifa>31</IdTarifa>
+                    <IdTarifa>7</IdTarifa>
+                    <IdTarifa>49</IdTarifa>
+                    <IdTarifa>28</IdTarifa>
+                    <IdTarifa>68</IdTarifa>
+                    <IdTarifa>3</IdTarifa>
+                    <IdTarifa>64</IdTarifa>
+                    <IdTarifa>15</IdTarifa>
+                    <IdTarifa>12</IdTarifa>
+                    <IdTarifa>11</IdTarifa>
+                    <IdTarifa>66</IdTarifa>
+                    <IdTarifa>67</IdTarifa>
+                    <IdTarifa>101</IdTarifa>
+                    <IdTarifa>51</IdTarifa>
+                    <IdTarifa>61</IdTarifa>
+                    <IdTarifa>46</IdTarifa>
+                    <IdTarifa>54</IdTarifa>
+                    <IdTarifa>63</IdTarifa>
+                </TarifasEstancia>
+                <Periodos>
+                    <Periodo>
+                        <Id>1</Id>
+                        <Inicio>20220101</Inicio>
+                        <Fin>20221231</Fin>
+                    </Periodo>
+                </Periodos>
+            </Prestacion>
+            <Prestacion>
+                <Id>37</Id>
+                <Nombre>
+                    <ca>Pack bienvenida compueto por:</ca>
+                    <da>Pack bienvenida compueto por:</da>
+                    <de>Pack bienvenida compueto por:</de>
+                    <en>Pack bienvenida compueto por:</en>
+                    <es>Pack bienvenida compueto por:</es>
+                    <eu>Pack bienvenida compueto por:</eu>
+                    <fr>Pack bienvenida compueto por:</fr>
+                    <it>Pack bienvenida compueto por:</it>
+                    <nl>Pack bienvenida compueto por:</nl>
+                    <pt>Pack bienvenida compueto por:</pt>
+                </Nombre>
+                <Descripcion>
+                    <ca>Pack bienvenida compueto por: &#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                    </ca>
+                    <da>Pack bienvenida compueto por: &#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                    </da>
+                    <de>Pack bienvenida compueto por: &#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                    </de>
+                    <en>Pack bienvenida compueto por: &#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                    </en>
+                    <es>Pack bienvenida compueto por: &#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                    </es>
+                    <eu>Pack bienvenida compueto por: &#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                    </eu>
+                    <fr>Pack bienvenida compueto por: &#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                    </fr>
+                    <it>Pack bienvenida compueto por: &#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                    </it>
+                    <nl>Pack bienvenida compueto por: &#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                    </nl>
+                    <pt>Pack bienvenida compueto por: &#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                        - 2L de leche entera&#13;
+                        - 12 capsulas café&#13;
+                        - 1x Agua Font Vella 1,5L&#13;
+                        - 1/2 Docena Huevos L&#13;
+                        - 1 paquete Galletas Maria (36 uds.)ç&#13;
+                        - 1 paquete servilletas&#13;
+                        - 1 paquete rollos papel higíénico (12 uds)&#13;
+                    </pt>
+                </Descripcion>
+                <Precio>
+                    <Total>45</Total>
+                    <Bruto>40.91</Bruto>
+                    <IVA>4.09</IVA>
+                    <Porcentaje>10</Porcentaje>
+                    <PorTramos>0</PorTramos>
+                    <PorNoches>0</PorNoches>
+                </Precio>
+                <Imagen />
+                <Tipo>0</Tipo>
+                <Condicion>0</Condicion>
+                <Tabn1>0</Tabn1>
+                <Tabn2>0</Tabn2>
+                <TarifasEstancia>
+                    <IdTarifa>39</IdTarifa>
+                    <IdTarifa>24</IdTarifa>
+                    <IdTarifa>56</IdTarifa>
+                    <IdTarifa>34</IdTarifa>
+                    <IdTarifa>5</IdTarifa>
+                    <IdTarifa>36</IdTarifa>
+                    <IdTarifa>2</IdTarifa>
+                    <IdTarifa>60</IdTarifa>
+                    <IdTarifa>58</IdTarifa>
+                    <IdTarifa>100</IdTarifa>
+                    <IdTarifa>44</IdTarifa>
+                    <IdTarifa>23</IdTarifa>
+                    <IdTarifa>4</IdTarifa>
+                    <IdTarifa>7</IdTarifa>
+                    <IdTarifa>62</IdTarifa>
+                    <IdTarifa>49</IdTarifa>
+                    <IdTarifa>48</IdTarifa>
+                    <IdTarifa>65</IdTarifa>
+                    <IdTarifa>55</IdTarifa>
+                    <IdTarifa>3</IdTarifa>
+                    <IdTarifa>13</IdTarifa>
+                    <IdTarifa>64</IdTarifa>
+                    <IdTarifa>15</IdTarifa>
+                    <IdTarifa>12</IdTarifa>
+                    <IdTarifa>11</IdTarifa>
+                    <IdTarifa>66</IdTarifa>
+                    <IdTarifa>67</IdTarifa>
+                    <IdTarifa>21</IdTarifa>
+                    <IdTarifa>20</IdTarifa>
+                    <IdTarifa>1</IdTarifa>
+                    <IdTarifa>101</IdTarifa>
+                    <IdTarifa>51</IdTarifa>
+                    <IdTarifa>61</IdTarifa>
+                    <IdTarifa>46</IdTarifa>
+                    <IdTarifa>54</IdTarifa>
+                    <IdTarifa>63</IdTarifa>
+                    <IdTarifa>8</IdTarifa>
+                </TarifasEstancia>
+                <Periodos>
+                    <Periodo>
+                        <Id>1</Id>
+                        <Inicio>20200601</Inicio>
+                        <Fin>20201231</Fin>
+                    </Periodo>
+                </Periodos>
+            </Prestacion>
+        </Prestaciones>
+    </VentaCruzada>
+    <PreguntasRGPD>
+        <Pregunta>
+            <Textos>
+                <ca>CA Email: ¿Autorizas a Camping Unicamping para que utilice tu información para
+                    recibir novedades y ofertas por email ?</ca>
+                <da>DK: Email: ¿Autorizas a Camping Unicamping para que utilice tu información para
+                    recibir novedades y ofertas por email ?</da>
+                <de>DE: Email: ¿Autorizas a Camping Unicamping para que utilice tu información para
+                    recibir novedades y ofertas por email ?</de>
+                <en>EN: Email: ¿Autorizas a Camping Unicamping para que utilice tu información para
+                    recibir novedades y ofertas por email ?</en>
+                <es>ES: Email: ¿Autorizas a Camping Unicamping para que utilice tu información para
+                    recibir novedades y ofertas por email ?</es>
+                <fr>FR:Email: ¿Autorizas a Camping Unicamping para que utilice tu información para
+                    recibir novedades y ofertas por email ?</fr>
+                <it>IT: Email: ¿Autorizas a Camping Unicamping para que utilice tu información para
+                    recibir novedades y ofertas por email ?</it>
+                <nl>NL: Email: ¿Autorizas a Camping Unicamping para que utilice tu información para
+                    recibir novedades y ofertas por email ?</nl>
+                <pt>PT Email: ¿Autorizas a Camping Unicamping para que utilice tu información para
+                    recibir novedades y ofertas por email ?</pt>
+            </Textos>
+            <Numero>1</Numero>
+            <Configurada>1</Configurada>
+        </Pregunta>
+        <Pregunta>
+            <Textos>
+                <ca>¿Deseas suscribirte a la lista de Newsletters de Camping Unicamping y recibir
+                    información periódica de nuestras actividades y ofertas?</ca>
+                <da>¿Deseas suscribirte a la lista de Newsletters de Camping Unicamping y recibir
+                    información periódica de nuestras actividades y ofertas?</da>
+                <de>¿Deseas suscribirte a la lista de Newsletters de Camping Unicamping y recibir
+                    información periódica de nuestras actividades y ofertas?</de>
+                <en>¿Deseas suscribirte a la lista de Newsletters de Camping Unicamping y recibir
+                    información periódica de nuestras actividades y ofertas?</en>
+                <es>¿Deseas suscribirte a la lista de Newsletters de Camping Unicamping y recibir
+                    información periódica de nuestras actividades y ofertas?</es>
+                <eu>¿Deseas suscribirte a la lista de Newsletters de Camping Unicamping y recibir
+                    información periódica de nuestras actividades y ofertas?</eu>
+                <fr>¿Deseas suscribirte a la lista de Newsletters de Camping Unicamping y recibir
+                    información periódica de nuestras actividades y ofertas?</fr>
+                <it>¿Deseas suscribirte a la lista de Newsletters de Camping Unicamping y recibir
+                    información periódica de nuestras actividades y ofertas?</it>
+                <nl>¿Deseas suscribirte a la lista de Newsletters de Camping Unicamping y recibir
+                    información periódica de nuestras actividades y ofertas?</nl>
+                <pt>¿Deseas suscribirte a la lista de Newsletters de Camping Unicamping y recibir
+                    información periódica de nuestras actividades y ofertas?</pt>
+            </Textos>
+            <Numero>2</Numero>
+            <Configurada>1</Configurada>
+        </Pregunta>
+        <Pregunta>
+            <Textos />
+            <Numero>3</Numero>
+            <Configurada>0</Configurada>
+        </Pregunta>
+    </PreguntasRGPD>
+</ROOT>
