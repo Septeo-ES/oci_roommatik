@@ -6,10 +6,27 @@ use App\Models\Database;
 
 class CampingWhitelistMiddleware
 {
+
+    function getHotelIDHeader(): ?string {
+        if (isset($_SERVER['hotel_id'])) {
+            return $_SERVER['hotel_id'];
+        }
+
+        if (function_exists('apache_request_headers')) {
+            $headers = apache_request_headers();
+            if (isset($headers['hotel_id'])) {
+                return $headers['hotel_id'];
+            }
+        }
+
+        return null;
+    }
+
     public function __invoke()
     {
         // Obtener el hotel_id del header, query param o del body
-        $headers = function_exists('getallheaders') ? getallheaders() : [];
+        // $headers = function_exists('getallheaders') ? getallheaders() : [];
+        $headers = $this->getHotelIDHeader();
         $campingId = $headers['hotel_id'] ?? null;
         if (!$campingId) {
             $campingId = $_GET['hotel_id'] ?? null;
