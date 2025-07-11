@@ -8,10 +8,6 @@ class CampingWhitelistMiddleware
 {
 
     function getHotelIDHeader(): ?string {
-        if (isset($_SERVER['hotel_id'])) {
-            return $_SERVER['hotel_id'];
-        }
-
         if (function_exists('apache_request_headers')) {
             $headers = apache_request_headers();
             if (isset($headers['hotel_id'])) {
