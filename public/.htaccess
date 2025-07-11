@@ -5,5 +5,12 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [QSA,L]
 
 
+# Habilitar el paso de headers personalizados
 RewriteCond %{HTTP:Authorization} ^(.*)
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%1]
+
+RewriteCond %{HTTP:hotel_id} ^(.*)
+RewriteRule .* - [E=HTTP_HOTEL_ID:%1]
+
+RewriteCond %{HTTP:Content-Type} ^(.*)
+RewriteRule .* - [E=HTTP_CONTENT_TYPE:%1]

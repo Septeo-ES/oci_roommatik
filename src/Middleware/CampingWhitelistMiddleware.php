@@ -8,10 +8,33 @@ class CampingWhitelistMiddleware
 {
 
     function getHotelIDHeader(): ?string {
+        // Primero intentar con la variable de entorno establecida por .htaccess
+        if (isset($_SERVER['HTTP_HOTEL_ID'])) {
+            return $_SERVER['HTTP_HOTEL_ID'];
+        }
+
+        // Intentar con apache_request_headers si está disponible
         if (function_exists('apache_request_headers')) {
             $headers = apache_request_headers();
             if (isset($headers['hotel_id'])) {
                 return $headers['hotel_id'];
+            }
+            // También intentar con diferentes variaciones de mayúsculas
+            if (isset($headers['Hotel-Id'])) {
+                return $headers['Hotel-Id'];
+            }
+            if (isset($headers['HOTEL_ID'])) {
+                return $headers['HOTEL_ID'];
+            }
+        }
+
+        // Intentar con getallheaders como alternativa
+        if (function_exists('getallheaders')) {
+            $headers = getallheaders();
+            foreach ($headers as $key => $value) {
+                if (strtolower($key) === 'hotel_id' || strtolower($key) === 'hotel-id') {
+                    return $value;
+                }
             }
         }
 
@@ -20,10 +43,10 @@ class CampingWhitelistMiddleware
 
     public function __invoke()
     {
+
         // Obtener el hotel_id del header, query param o del body
-        // $headers = function_exists('getallheaders') ? getallheaders() : [];
-        $headers = $this->getHotelIDHeader();
-        $campingId = $headers['hotel_id'] ?? null;
+        $campingId = $this->getHotelIDHeader();
+
         if (!$campingId) {
             $campingId = $_GET['hotel_id'] ?? null;
         }
